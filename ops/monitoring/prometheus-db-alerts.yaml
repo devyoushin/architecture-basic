@@ -1,0 +1,32 @@
+groups:
+  - name: database-overload
+    rules:
+      - alert: DatabaseHighConnectionUsage
+        expr: |
+          db_connections / db_max_connections > 0.8
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Database connection usage is above 80%"
+          runbook: "ops/runbooks/db-overload-response.md"
+
+      - alert: DatabaseHighP95Latency
+        expr: |
+          histogram_quantile(0.95, sum(rate(db_query_duration_seconds_bucket[5m])) by (le)) > 0.5
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Database p95 query latency is above 500ms"
+          runbook: "ops/runbooks/db-overload-response.md"
+
+      - alert: DatabaseLockWaitSpike
+        expr: |
+          rate(db_lock_waits_total[5m]) > 10
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Database lock wait rate is high"
+          runbook: "ops/runbooks/db-overload-response.md"
