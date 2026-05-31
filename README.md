@@ -23,3 +23,4 @@ AWS 엔터프라이즈 멀티 계정 환경의 아키텍처 설계 전략을 정
 2. `docs/guides/02-ou-strategy.md`, `docs/guides/03-account-strategy.md`로 조직/계정 구조 학습
 3. `docs/guides/04-vpc-subnet.md`부터 네트워크, 보안, 비용, 관측, DR 전략을 순서대로 학습
 4. `docs/guides/18-eks.md`에서 EKS 플랫폼 전략 확인
+5. `docs/guides/21-cdn-edge-architecture.md`에서 게임/영상 서비스 CDN 아키텍처 확인
