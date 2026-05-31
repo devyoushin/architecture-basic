@@ -19,16 +19,16 @@ architecture-practice/
 │       ├── review-doc.md      # /review-doc — 문서 품질 검토
 │       ├── add-troubleshooting.md  # /add-troubleshooting — 트러블슈팅 추가
 │       └── search-kb.md       # /search-kb — 지식베이스 검색
-├── agents/                    # 전문 에이전트 정의
+├── docs/agents/                    # 전문 에이전트 정의
 │   ├── doc-writer.md          # 아키텍처 문서 작성 전문가
 │   ├── security-architect.md  # 보안 아키텍처 전문가
 │   ├── network-architect.md   # 네트워크 설계 전문가
 │   └── cost-optimizer.md      # 비용 최적화 전문가
-├── templates/                 # 문서 템플릿
+├── docs/templates/                 # 문서 템플릿
 │   ├── service-doc.md         # 아키텍처 컴포넌트 문서 템플릿
 │   ├── runbook.md             # 운영 런북 템플릿
 │   └── incident-report.md     # 장애/보안 이벤트 보고서 템플릿
-├── rules/                     # Claude 작성 규칙
+├── docs/rules/                     # Claude 작성 규칙
 │   ├── doc-writing.md         # 문서 작성 원칙
 │   ├── architecture-conventions.md  # 아키텍처 표준 관행
 │   ├── security-checklist.md  # Well-Architected 보안 체크리스트
@@ -60,7 +60,7 @@ architecture-practice/
 - 번호는 2자리로 패딩
 
 ### 필수 포함 항목
-각 아키텍처 문서는 `templates/service-doc.md` 구조를 따릅니다:
+각 아키텍처 문서는 `docs/templates/service-doc.md` 구조를 따릅니다:
 1. **개요** — 왜 필요한지, 어떤 문제를 해결하는지
 2. **설계 원칙** — 주요 설계 결정 사항
 3. **아키텍처 설계** — 텍스트 다이어그램 + Terraform 구현 + SCP/정책 예시

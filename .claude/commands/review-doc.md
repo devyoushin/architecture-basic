@@ -11,7 +11,7 @@ description: AWS 아키텍처 문서를 검토합니다. 사용법: /review-doc 
 - [ ] 환경 격리 원칙이 고려됐는지
 - [ ] 네트워크 중앙화 전략이 일관성 있는지
 
-### 2. 보안 검토 (`rules/security-checklist.md` 기준)
+### 2. 보안 검토 (`docs/rules/security-checklist.md` 기준)
 - [ ] IAM 최소 권한 예시인지
 - [ ] SCP 가드레일이 포함됐는지
 - [ ] 실제 계정 ID/ARN 노출 없는지

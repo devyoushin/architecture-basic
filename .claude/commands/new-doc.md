@@ -12,9 +12,9 @@ description: AWS 아키텍처 신규 문서를 스캐폴딩합니다. 사용법:
 ## 파일 생성 규칙
 1. 파일명: `{번호}-{주제}.md` (소문자, 하이픈 구분)
 2. 저장 위치: 프로젝트 루트 (`/Users/sunny/Desktop/architecture-practice/`)
-3. `rules/doc-writing.md`의 문서 작성 규칙 준수
-4. `rules/architecture-conventions.md`의 설계 원칙 준수
-5. `rules/security-checklist.md`의 보안 체크리스트 통과
+3. `docs/rules/doc-writing.md`의 문서 작성 규칙 준수
+4. `docs/rules/architecture-conventions.md`의 설계 원칙 준수
+5. `docs/rules/security-checklist.md`의 보안 체크리스트 통과
 
 ## 문서 구조 (반드시 아래 섹션 모두 포함)
 

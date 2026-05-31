@@ -9,7 +9,7 @@ description: 아키텍처 운영 Runbook을 생성합니다. 사용법: /new-run
 ## 파일 생성 규칙
 1. 파일명: `runbook-{서비스}-{작업명}.md`
 2. 저장 위치: 프로젝트 루트
-3. `templates/runbook.md` 템플릿 기반으로 작성
+3. `docs/templates/runbook.md` 템플릿 기반으로 작성
 
 ## 작성 시 필수 포함 사항
 - **사전 체크리스트**: 최소 4개 항목
