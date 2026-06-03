@@ -6,7 +6,7 @@ AWS 엔터프라이즈 멀티 계정 환경의 아키텍처 설계 전략을 정
 
 - 문서 지도: `docs/README.md`
 - 운영/실습 자산: `ops/README.md`
-- AI 작업 지침: `CLAUDE.md`
+- AI 작업 지침: `CLAUDE.md`, `AGENTS.md -> CLAUDE.md`
 
 ## 구조
 
@@ -15,7 +15,8 @@ AWS 엔터프라이즈 멀티 계정 환경의 아키텍처 설계 전략을 정
 | `docs/` | 랜딩존, OU, 계정, 네트워크, 보안, 비용, 관측, DR, EKS 전략 문서 |
 | `ops/` | 향후 아키텍처 검증 스크립트와 운영 자산 |
 | `.claude/` | Claude Code 커맨드와 설정 |
-| `CLAUDE.md` | Claude 작업 지침 |
+| `CLAUDE.md` | Claude/Codex 공통 작업 지침 원본 |
+| `AGENTS.md -> CLAUDE.md` | Codex/agent 작업 지침 링크 |
 
 ## 학습 흐름
 
