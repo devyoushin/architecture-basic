@@ -1,12 +1,10 @@
-# Architecture Docs
+# architecture-basic 문서
 
-AWS 엔터프라이즈 아키텍처 문서는 설계 주제별로 나눠 관리합니다.
+이 디렉토리는 주제별 번호 체계로 문서를 정리합니다. 앞 번호는 학습과 운영 흐름을 나타내며, 90번대는 저장소 관리용 문서입니다.
 
-| 폴더 | 내용 |
-|------|------|
-| `guides/` | Landing Zone, OU, Account, Network, Security, Cost, Observability, DR, EKS, CDN/Edge 전략 |
-| `agents/` | AI 전문 에이전트 프롬프트 |
-| `rules/` | 문서 작성과 아키텍처 설계 규칙 |
-| `templates/` | 재사용 문서 템플릿 |
+## 문서 구조
 
-운영/검증 자산은 `../ops/README.md`를 참고합니다.
+- [01-guides](./01-guides/): 아키텍처 가이드 - Landing Zone, 네트워크, 보안, 운영, 비용 등 아키텍처 문서를 순서대로 관리합니다.
+- [90-standards](./90-standards/): 문서 작성 표준 - 저장소 문서 작성 규칙과 운영 기준을 관리합니다.
+- [91-templates](./91-templates/): 문서 템플릿 - 반복해서 사용하는 문서 템플릿을 관리합니다.
+- [99-agents](./99-agents/): AI 에이전트 가이드 - 아키텍처 설계와 리뷰에 활용할 에이전트 역할 정의를 관리합니다.

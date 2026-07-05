@@ -27,6 +27,6 @@ AWS 엔터프라이즈 아키텍처 문서를 작성하는 전문 에이전트�
 
 ## 참조 규칙 파일
 
-- `docs/rules/doc-writing.md` — 문서 작성 스타일
-- `docs/rules/architecture-conventions.md` — 설계 원칙 및 코드 규칙
-- `docs/rules/security-checklist.md` — 보안 검토 기준
+- `docs/90-standards/doc-writing.md` — 문서 작성 스타일
+- `docs/90-standards/architecture-conventions.md` — 설계 원칙 및 코드 규칙
+- `docs/90-standards/security-checklist.md` — 보안 검토 기준
